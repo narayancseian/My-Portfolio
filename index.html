@@ -39,7 +39,7 @@
                          <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                      </div>
 
-                     <p id="settings-note">*Theme settings will be saved for<br>your next visit</p>
+                     <p id="settings-note">*Theme settings will be saved foe<br>your next visit</p>
                  </div>
                  <div class="right-column">
                      <div id="preview-shadow">
@@ -143,7 +143,7 @@
          <div class="main-container">
              <a href=""></a>
              <h3 style="text-align: center;">Get In Touch</h3>
-             <form id="contact-form">
+             <form id="contact-form" id='i-recaptcha' action="contact.php" method="POST">
                  <a name="contact"></a>
                  <label>Name</label>
                  <input class="input-field" type="text" name="name">
@@ -156,7 +156,8 @@
 
                  <label>Message</label>
                  <textarea class="input-field" name="message"></textarea>
-                 <input id="submit-btn" type="submit" value="Send">
+                 
+                 <input id="submit-btn" type="submit" value="Send" name="submit">
              </form>
          </div>
      </section>
